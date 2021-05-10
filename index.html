@@ -1,0 +1,204 @@
+ <!DOCTYPE html>
+
+ <html lang="pt-br">
+
+ <head>
+     <meta charset="UTF-8">
+     <title>Infra Net/Home</title>
+     <link rel="icon" href="img/logo.png">
+
+ </head>
+
+ <body>
+     <header>
+         <div class="menu">
+             <h1>Infra Net</h1>
+
+
+             <label for="usuario">Usuario</label>
+             <input type="text" id="usuario">
+
+             <label for="senha">Senha</label>
+             <input type="text" id="senha">
+
+             <input type="submit" name="login" value="Login" class="logon">
+             <input type="submit" name="registro" value="Registrar-se" class="registre">
+
+         </div>
+     </header>
+
+     <main>
+
+         <img id="banner" src="img/banner1.jpg" alt="Imagem banner">
+
+         <div class="principal">
+             <h2 class="titulo-centralizado">Sobre a INFRANET</h2>
+             <p class="texto1">Localizada no coração da cidade a <strong>Infranet</strong> traz para o mercado o que há
+                 de melhor para segurabilidade de sistemas para sua empresa </p>
+
+             <p id="missao"><em>Nossa missão é: <strong>"Proporcionar segurança e qualidades de infra-estrutura de TI
+                         para ás empresas"</strong>.</em></p>
+
+             <p class="texto1">Oferecemos servidores e estrutura. O Suporte possui padrão de excelência e agilidade,
+                 garantindo qualidade e satisfação dos nossos clientes.</p>
+         </div>
+
+         <nav class="texto2">
+
+             <p> Somos a Infranet uma empresa voltada para infraestrutura de gestão de empresas de pequeno e médio
+                 porte,</p>
+
+             <p> desde 2019 nós atuamos nesse segmento, nosso lema é desenvolver e criar redes amplamente seguras aos
+                 nossos clientes.</p>
+
+             <p> Nossos principais serviços são :</p>
+         </nav>
+
+
+         <div class="servicos">
+
+             <ul>
+                 <li class="caviso">
+                     <h2><a href="#">Cabeamento completo e conectividade física</a></h2>
+                     <img src=img/avaliacao.webp class="avaliacao" alt="avaliacao">
+
+                 </li>
+
+                 <li class="caviso">
+                     <h3><a href="#">Consolidação de servidores e armazenamento</a></h3>
+                     <img src="img/virtual.jpg" class="avaliacao" alt="virtual">
+                 </li>
+
+                 <li class="caviso">
+                     <h4><a href="#">Telefonia e e-mail</a></h4>
+                     <img src="img/telefonia.jpg" class="avaliacao" alt="telefonia">
+                 </li>
+             </ul>
+         </div>
+     </main>
+
+     <style>
+         header {
+             padding: 10px;
+             width: 100%;
+             background: #363636;
+             position: relative;
+         }
+
+         #banner {
+             width: 100%;
+             height: 300px;
+             padding-top: 0px;
+         }
+
+
+         .menu {
+             display: inline-block;
+             font-size: 20px;
+             color: darkorange;
+             margin: 20px;
+             font-family: "Arial Black", fantasy;
+         }
+
+         h1 {
+             position: absolute;
+             right: 45px;
+             font-size: 17px;
+             color: darkorange;
+
+         }
+
+         .logon {
+             color: #FFFAFA;
+             background-color: darkorange;
+             border: none;
+             border-radius: 2px;
+         }
+
+         .registre {
+             color: #FFFAFA;
+             background-color: #ff8c00;
+             border: none;
+             border-radius: 2px;
+         }
+
+
+         .principal {
+             background: #CCCCCC;
+             padding: 30px;
+
+         }
+
+         .titulo-principal {
+             padding: 20px 0;
+             text-align: center;
+             font-size: 25px;
+             background-color: #363636;
+             color: #FFFAFA;
+         }
+
+         .titulo-centralizado {
+             text-align: center;
+             font-size: 40px;
+             font-style: italic;
+         }
+
+         .texto1 {
+             text-align: center;
+             font-size: 20px;
+         }
+
+         #missao {
+             font-size: 25px;
+             text-align: center;
+             color: red;
+         }
+
+         .texto2 {
+             text-align: center;
+             font-size: 20px;
+             font-weight: bold;
+         }
+
+         .servicos {
+             padding-top: 30px;
+             font-size: 30px;
+             font-style: oblique;
+             text-align: center;
+             list-style-type: none;
+         }
+
+         .caviso a {
+             text-decoration: none;
+             color: steelblue;
+         }
+
+         ul {
+             list-style-type: none;
+         }
+
+         .avaliacao {
+             height: 200px;
+         }
+
+         footer {
+             width: 100%;
+             height: 300px;
+             text-align: center;
+             background: url("img/rodape.jpg");
+             background-repeat: no-repeat;
+         }
+
+         .copyright {
+             padding-top: 20px;
+             color: #ffffff;
+             font-size: 14px;
+         }
+     </style>
+ </body>
+
+ <footer>
+     <h2 class="copyright">&copy;Copyright InfraNet - 2021</h2>
+ </footer>
+
+ </html>
